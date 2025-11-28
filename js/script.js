@@ -39,3 +39,13 @@ else if (page.includes("driver3")) {
 else {
     document.getElementById("bannerImage").src = "images/banner-default.jpg";
 }
+
+// POPUP IMAGE
+function openPopup(imgSrc) {
+    document.getElementById("popupImg").src = imgSrc;
+    document.getElementById("popup").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
